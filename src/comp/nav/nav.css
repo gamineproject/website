@@ -1,0 +1,70 @@
+.App-Nav {
+  background-color: #f7d800;
+  color: #000;
+  font-size: 60px;
+  font-weight: 600;
+  display: flex;
+  height: 95px;
+  width: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  -webkit-box-shadow: 0px 12px 7px 0px rgba(211, 182, 0, 1);
+  -moz-box-shadow: 0px 12px 7px 0px rgba(211, 182, 0, 1);
+  box-shadow: 0px 12px 7px 0px rgba(211, 182, 0, 1);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+#git-path {
+  stroke: none;
+  fill-rule: nonzero;
+  fill: #100f0d;
+  fill-opacity: 1;
+}
+
+#headtext {
+  font-size: 40px;
+}
+
+.navigation {
+  user-select: none;
+}
+
+@media (max-width: 768px) {
+  #GitWidget,
+  #example1 {
+    display: none;
+  }
+}
+
+.navigation {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 25px;
+}
+.option {
+  position: absolute;
+  right: 22%;
+  top: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+.option p {
+  margin-top: 50%;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .option {
+    right: 10%;
+  }
+}
+
+#logo1 {
+  cursor: pointer;
+}

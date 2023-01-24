@@ -1,0 +1,30 @@
+#githubStats {
+  font-size: small;
+  margin-left: 50px;
+}
+#git-icon {
+  position: absolute;
+  margin-right: 80px;
+}
+#GitWidget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dbbf00;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 18px;
+  margin-right: 25px;
+  height: 50px;
+  width: 15%;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  #GitWidget {
+    display: none;
+  }
+}

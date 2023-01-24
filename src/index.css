@@ -1,0 +1,37 @@
+/*@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto&display=swap");*/
+
+#root {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+.App {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.window {
+  text-align: left;
+  background-color: #303030;
+  border-radius: 10px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.terminal {
+  text-align: left;
+  background-color: #000;
+  border-radius: 10px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+small {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 100;
+}

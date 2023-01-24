@@ -1,0 +1,31 @@
+.errcode {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 120px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: #9b8800;
+  cursor: default;
+}
+.errcode:hover,
+#errhow:hover {
+  color: #000;
+}
+#errhow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 15px;
+  font-weight: 100;
+  color: #9b8800;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  #errhow,
+  #erradv {
+    display: none;
+  }
+}
